@@ -112,7 +112,7 @@ export function NewNoteCard({onNoteCreated}: NewNoteCardProps) {
                   </div>
                   {
                     isRecording ? (
-                      <button onClick={handleStopRecording} type="button" className='font-medium w-full bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none flex items-center justify-center gap-2 hover:bg-slate-100'>
+                      <button onClick={handleStopRecording} type="button" className='font-medium w-full bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none flex items-center justify-center gap-2 hover:bg-slate-800'>
                           <div className='size-3 rounded-full bg-red-500 animate-pulse'/>
                           Gravando (clique para interromper)
                       </button>
